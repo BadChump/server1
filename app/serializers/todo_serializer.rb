@@ -1,5 +1,5 @@
 class TodoSerializer
   include FastJsonapi::ObjectSerializer
   attributes :text
-  belong_to :project
+  belongs_to :project
 end
